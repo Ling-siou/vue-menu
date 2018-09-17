@@ -2,7 +2,7 @@
     <div>
         <div class="try-one sidebar">
             <ul>
-                <li v-for="item in menuItems" :key="item.name" v-bind:value="item.name">{{item.name}}</li>
+                <li v-for="item in menuItems" :key="item.name" v-bind:value="item.name" v-if="item.showInMenu == true">{{item.name}}</li>
             </ul>
         </div>
     </div>

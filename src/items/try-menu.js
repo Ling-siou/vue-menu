@@ -13,7 +13,7 @@ var menuItems = [
         showInMenu: false
     },{
         name: 'Item05',
-        showInMenu: false
+        showInMenu: true
     },{
         name: 'Item06',
         showInMenu: false
@@ -22,7 +22,7 @@ var menuItems = [
         showInMenu: false
     },{
         name: 'Item08',
-        showInMenu: false
+        showInMenu: true
     },
 ]
 
