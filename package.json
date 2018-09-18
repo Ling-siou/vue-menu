@@ -12,12 +12,16 @@
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.11",
     "chromedriver": "^2.41.0",
+    "firebase": "^5.5.0",
+    "firebase-tools": "^4.2.1",
     "iedriver": "^3.9.2",
+    "lodash": "^4.17.11",
     "nightwatch": "^0.9.21",
     "selenium-server": "^3.14.0",
     "vue": "^2.5.11",
     "vue-router": "^3.0.1",
-    "vue-scroll": "^2.1.7"
+    "vue-scroll": "^2.1.7",
+    "firebase-admin": "^6.0.0"
   },
   "browserslist": [
     "> 1%",
