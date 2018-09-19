@@ -9,6 +9,8 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import vuescroll from 'vue-scroll'
 
+// import './items/initialize.js'
+
 Vue.use(vuescroll, {debounce: 600})
 Vue.use(BootstrapVue);
 

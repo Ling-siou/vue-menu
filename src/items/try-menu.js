@@ -1,28 +1,36 @@
 var menuItems = [
     {
         name: 'Item01',
-        showInMenu: false
+        showInMenu: false,
+        choosechoosed: false,
     },{
         name: 'Item02',
-        showInMenu: false
+        showInMenu: false,
+        choosechoosed: false,
     },{
         name: 'Item03',
-        showInMenu: true
+        showInMenu: true,
+        choosechoosed: true,
     },{
         name: 'Item04',
-        showInMenu: false
+        showInMenu: false,
+        choosechoosed: false,
     },{
         name: 'Item05',
-        showInMenu: true
+        showInMenu: true,
+        choosechoosed: true,
     },{
         name: 'Item06',
-        showInMenu: false
+        showInMenu: false,
+        choosechoosed: false,
     },{
         name: 'Item07',
-        showInMenu: false
+        showInMenu: false,
+        choosechoosed: false,
     },{
         name: 'Item08',
-        showInMenu: true
+        showInMenu: true,
+        choosechoosed: true,
     },
 ]
 

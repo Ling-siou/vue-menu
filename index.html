@@ -3,6 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>vue-menu</title>
+    <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyB9uuttltyV8V7VjOrDMv6YBuXec2pOQiE",
+        authDomain: "vue-menu-test.firebaseapp.com",
+        databaseURL: "https://vue-menu-test.firebaseio.com",
+        projectId: "vue-menu-test",
+        storageBucket: "vue-menu-test.appspot.com",
+        messagingSenderId: "231762079479"
+      };
+      firebase.initializeApp(config);
+    </script>
   </head>
   <body>
     <div id="app"></div>
