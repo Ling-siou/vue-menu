@@ -6,6 +6,8 @@
             </ul>
         </div>
         <div class="chossedList">
+            <h2>Only add and remove items</h2>
+            <p>(Link with firebase)</p>
             <ul>
                 <li v-for="item in menuItems" :key="item.name" v-bind:value="item.name" :class="(item.choosechoosed == true ) ? 'clicked' : ''"  @click="clickItem(item)">{{item.name}}</li>
                 <input type="button" value="renew" @click="renewList">

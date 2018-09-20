@@ -1,0 +1,44 @@
+.flex{
+    display: flex;
+    >div{
+        padding-top: 70px;
+    }
+    .try-one{
+        &.sidebar{
+            height: 100vh;
+            background-color: gainsboro;
+            width: 230px;
+            ul{
+                li{
+                    padding: 8px;
+                    margin-bottom: 5px;
+                    border: 1px solid #fff;
+                }
+            }
+        }
+    }
+    .chossedList{
+        padding-left: 15px;
+        ul{
+            li{
+                background-color: gray;
+                color: floralwhite;
+                padding: 10px;
+                margin-bottom: 5px;
+                &.clicked{
+                    background-color: #fff;
+                    color: gray;
+                }
+            }
+        }
+    }
+}
+
+.test-scroll{
+    padding: 30px 0;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+}
